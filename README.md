@@ -24,7 +24,7 @@ User applications can disable or interfere with the I2C programming port.  If th
 
 ### Feature Row
 
-The default blank state of the feature row enables programming through I2C and SPI, but it can dissable these ports.  In fact, the defualt settings for these bits in Diamond will dissable them unless you go in and change it from the default in the global settings.  When programming the device through I2C or SPI I suggest to avoid programming the feature row unless absolutely necessary.  My example code for loading the device from CircuitPython or Arduino ignore the feature row in the Jedec file for this reason.  The feature row should not be updated with most program updates, only when necessary.
+The default blank state of the feature row enables programming through I2C and SPI, but it can dissable these ports.  In fact, the default settings for these bits in Diamond will dissable them unless you go in and change it from the default in the global settings.  When programming the device through I2C or SPI I suggest to avoid programming the feature row unless absolutely necessary.  My example code for loading the device from CircuitPython or Arduino ignore the feature row in the Jedec file for this reason.  The feature row should not be updated with most program updates, only when necessary.
 
 ### Programming Examples
 
